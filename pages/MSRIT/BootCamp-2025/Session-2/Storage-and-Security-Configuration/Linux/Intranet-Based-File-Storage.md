@@ -1,16 +1,5 @@
-# **Corporate Training Guide: Linux & Windows User Management (Easy Explanation)**  
-
-## **Purpose:**  
-This guide is designed to help IT administrators and trainers set up and manage user accounts and shared storage on Linux and Windows systems efficiently. By following these steps, organizations can ensure secure and structured access control for users, particularly students in an educational environment.  
-
-## **Session 1: Introduction to System Administration & User Management (Linux & Windows)**  
-**Duration:** 2 Hours  
-**Focus:** Linux & Windows User Management  
-
----  
-
 ## **Session 2: Managing Common Storage for Students & Security Configuration**  
-**Duration:** 2 Hours  
+
 
 ### **Intranet-Based File Storage:**  
 #### **Overview:**  

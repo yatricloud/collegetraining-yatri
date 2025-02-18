@@ -1,4 +1,4 @@
-Here is a basic explanation of IP Addressing, Subnetting, and DNS Configuration in markdown format:
+
 
 # IP Addressing, Subnetting, and DNS Configuration
 
@@ -71,4 +71,3 @@ If we have the network `192.168.1.0/24`, and we want to divide it into smaller s
 - **Subnetting**: Dividing a network into smaller parts for efficient use and security.
 - **DNS Configuration**: Translates domain names to IP addresses for network communication.
 
-This markdown provides a basic understanding of IP addressing, subnetting, and DNS configuration, structured in an easy-to-read format. You can use it in your documentation or notes. Let me know if you need further details or examples!

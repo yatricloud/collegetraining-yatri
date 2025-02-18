@@ -1,12 +1,5 @@
-# **Corporate Training Guide: Linux & Windows User Management (Easy Explanation)**  
-## **Session 1: Introduction to System Administration & User Management (Linux & Windows)**  
-**Duration:** 2 Hours  
-**Focus:** Linux & Windows User Management  
-
----
 
 ## **Session 2: Managing Common Storage for Students & Security Configuration**  
-**Duration:** 2 Hours  
 
 ### **Windows: Setting up shared folders using Windows File Sharing**  
 - **Example:** Right-click on a folder > Properties > Sharing > Share with specific people.  

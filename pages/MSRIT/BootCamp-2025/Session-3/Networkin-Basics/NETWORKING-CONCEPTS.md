@@ -111,6 +111,4 @@
 
 ---
 
-## Conclusion
-This session covered essential networking concepts, including IP addressing, subnetting, and DNS configuration, followed by a hands-on lab where we set up a local network and troubleshot common network issues. Mastering these basics will significantly enhance your ability to manage and troubleshoot networks effectively.
 

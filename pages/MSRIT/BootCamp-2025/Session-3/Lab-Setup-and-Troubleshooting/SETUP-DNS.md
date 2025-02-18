@@ -1,7 +1,3 @@
-Setting up a DHCP and DNS server on Linux for local networking can be done using `dnsmasq`, a lightweight and easy-to-configure tool that provides both DHCP and DNS services. Below are the steps to set it up on a Linux system (e.g., Ubuntu/Debian).
-
----
-
 ### **Step 1: Install `dnsmasq`**
 1. Update your package list:
    ```bash
@@ -103,48 +99,42 @@ sudo ufw allow 68/udp  # DHCP
 
 ---
 
-That's it! You now have a working DHCP and DNS server for your local network using `dnsmasq`. Let me know if you need further assistance!
-
-
+### **Resolving Port 53 Conflicts**
 Your system doesn’t have net-tools installed, which includes netstat. You can install it with:
-
+```bash
 sudo apt update && sudo apt install net-tools -y
-
+```
 After that, run:
-
+```bash
 sudo netstat -tulnp | grep ":53 "
-
+```
 If you prefer an alternative without installing net-tools, use:
-
+```bash
 sudo ss -tulnp | grep ":53 "
+```
+This will check which process is using port 53, which is crucial for resolving the dnsmasq issue.
 
-This will check which process is using port 53, which is crucial for resolving the dnsmasq issue. Let me know what it outputs! 🚀
+If `systemd-resolved` is using port 53, you can:
 
-It looks like systemd-resolved is already using port 53 for DNS resolution, which is likely causing a conflict with dnsmasq. You can either:
-	1.	Disable systemd-resolved and then restart dnsmasq, or
-	2.	Configure dnsmasq to use a different port.
+1. Disable `systemd-resolved`:
+   ```bash
+   sudo systemctl stop systemd-resolved
+   sudo systemctl disable systemd-resolved
+   ```
 
-If you want to disable systemd-resolved, follow these steps:
-	1.	Disable the service:
+2. Remove the symlink:
+   ```bash
+   sudo rm /etc/resolv.conf
+   ```
 
-sudo systemctl stop systemd-resolved
-sudo systemctl disable systemd-resolved
+3. Create a new `resolv.conf` file:
+   ```bash
+   sudo ln -s /run/systemd/resolve/resolv.conf /etc/resolv.conf
+   ```
 
+4. Restart `dnsmasq`:
+   ```bash
+   sudo systemctl restart dnsmasq
+   ```
 
-	2.	Remove the symlink:
-
-sudo rm /etc/resolv.conf
-
-
-	3.	Create a new resolv.conf file:
-
-sudo ln -s /run/systemd/resolve/resolv.conf /etc/resolv.conf
-
-
-	4.	Finally, restart dnsmasq:
-
-sudo systemctl restart dnsmasq
-
-
-
-This should free up port 53 for dnsmasq and allow it to run properly. Let me know how it goes!
+This should free up port 53 for dnsmasq and allow it to run properly.

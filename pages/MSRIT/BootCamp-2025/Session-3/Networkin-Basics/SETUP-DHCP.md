@@ -1,4 +1,3 @@
-Here’s a guide to setting up DHCP and DNS servers for local networking in markdown format:
 
 # Setting Up DHCP and DNS Servers for Local Networking
 
@@ -145,4 +144,3 @@ DNS Setup:
 
 Both DHCP and DNS servers simplify network management and ensure efficient IP address allocation and domain resolution.
 
-This guide will help you set up both a **DHCP** server and a **DNS** server on a local network. Let me know if you need further clarification or additional steps!
