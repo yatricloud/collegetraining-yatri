@@ -11,5 +11,4 @@ package-lock.json
 *.iml
 *.log
 *.log.*
-*.log-*
-*.log/*
+.next
