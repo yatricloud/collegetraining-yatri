@@ -1,0 +1,15 @@
+/dist
+/node_modules
+npm-debug.log
+yarn-error.log
+yarn-debug.log
+yarn.lock
+package-lock.json
+.DS_Store
+.vscode
+.idea
+*.iml
+*.log
+*.log.*
+*.log-*
+*.log/*
