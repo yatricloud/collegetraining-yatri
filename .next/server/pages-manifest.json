@@ -1,8 +1,0 @@
-{
-  "/_app": "pages/_app.js",
-  "/_error": "pages/_error.js",
-  "/_document": "pages/_document.js",
-  "/MSRIT/BootCamp-2025/Session-3/Networking-Basics/NETWORKING-CONCEPTS": "pages/MSRIT/BootCamp-2025/Session-3/Networking-Basics/NETWORKING-CONCEPTS.js",
-  "/MSRIT/BootCamp-2025/Assessment/User-Management-and-File-Sharing": "pages/MSRIT/BootCamp-2025/Assessment/User-Management-and-File-Sharing.js",
-  "/MSRIT/BootCamp-2025/Session-3/Networking-Basics/SETUP-DHCP": "pages/MSRIT/BootCamp-2025/Session-3/Networking-Basics/SETUP-DHCP.js"
-}
