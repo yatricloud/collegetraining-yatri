@@ -95,9 +95,6 @@ SELECT COUNT(*) AS total_users FROM mysql.user;
    sudo rm -rf /etc/mysql /var/lib/mysql /var/log/mysql
    ```
 
-=====================================================================================
-======================================================================================
-
 ### Option 2: Enabling the General Query Log
 
 If you want to record all commands executed by the server (not just interactive commands), you can enable MySQL’s general query log. This log will capture every SQL statement processed by the server.

@@ -1,0 +1,9 @@
+{
+  "/_app": "pages/_app.js",
+  "/_error": "pages/_error.js",
+  "/_document": "pages/_document.js",
+  "/": "pages/index.js",
+  "/MSRIT/BootCamp-2025/mysql": "pages/MSRIT/BootCamp-2025/mysql.js",
+  "/MSRIT/BootCamp-2025/apache": "pages/MSRIT/BootCamp-2025/apache.js",
+  "/MSRIT/BootCamp-2025/nginx": "pages/MSRIT/BootCamp-2025/nginx.js"
+}
