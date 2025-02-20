@@ -1,3 +1,5 @@
+# Afternoon Session: Networking Basics
+
 ## 1. IP Addressing, Subnetting, and DNS Configuration
 
 ### 1.1 Understanding IP Addresses

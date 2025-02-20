@@ -28,7 +28,7 @@ const config: DocsThemeConfig = {
     <>
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <meta property="og:title" content="College Training - Yatri Cloud" />
-      <meta property="og:description" content="Journey Towards Cloud & DevOps" />
+      <meta property="og:description" content="Start your Business Now" />
       <meta property="og:image" content="https://raw.githubusercontent.com/yatricloud/yatri-images/refs/heads/main/Logo/yatricloud-round-transparent.png" /> {/* Social sharing icon */}
       <meta property="og:image:width" content="1200" /> {/* Standard size for sharing images */}
       <meta property="og:image:height" content="630" /> {/* Standard size for sharing images */}
